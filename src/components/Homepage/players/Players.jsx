@@ -26,7 +26,7 @@ const Players = ({ playersPromise }) => {
             </div>
 
 
-           {selectedType==='Available' ? <AvailablePlayers players={players}></AvailablePlayers>: <SelectedPlayers></SelectedPlayers>}
+           {selectedType==='Available' ?<AvailablePlayers players={players}></AvailablePlayers>: <SelectedPlayers></SelectedPlayers>}
 
         </div>
     );
