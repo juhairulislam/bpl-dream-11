@@ -1,12 +1,29 @@
 
+import { Suspense } from 'react';
 import './App.css'
+import Players from './components/Homepage/players/Players';
+import Navbar from './components/Navbar/Navbar'
+
+
+const fetchPlayer = async() =>{
+  const res = await fetch('/player.json') ;
+
+  return res.json();
+}
 
 function App() {
+
+  const playersPromise = fetchPlayer()
  
 
   return (
     <>
-    <h1 className='text-red-500'>Hello react</h1>
+    <Navbar></Navbar>
+    <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
+    <Players playersPromise={ playersPromise}></Players>
+
+    </Suspense>
+
     
 
     </>

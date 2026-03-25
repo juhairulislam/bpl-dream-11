@@ -1,0 +1,102 @@
+[
+  {
+    "playerName": "Virat Kohli",
+    "playerCountry": "India",
+    "playerType": "Batsman",
+    "rating": 92,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "price": 2400000,
+    "img": "https://i.ibb.co.com/LDbSb2qm/virat.avif"
+  },
+  {
+    "playerName": "Babar Azam",
+    "playerCountry": "Pakistan",
+    "playerType": "Batsman",
+    "rating": 90,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "price": 2000000,
+    "img": "https://i.ibb.co.com/j9GGzVWM/Babar-Azam-2.webp"
+  },
+  {
+    "playerName": "Ben Stokes",
+    "playerCountry": "England",
+    "playerType": "All-Rounder",
+    "rating": 93,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "price": 2300000,
+    "img": "https://i.ibb.co.com/4gw26BZS/gettyimages-1409775355-612x612.jpg"
+  },
+  {
+    "playerName": "Pat Cummins",
+    "playerCountry": "Australia",
+    "playerType": "Bowler",
+    "rating": 91,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "price": 2100000,
+    "img": "https://i.ibb.co.com/Qv61kMDY/8993579.jpg"
+  },
+  {
+    "playerName": "Shakib Al Hasan",
+    "playerCountry": "Bangladesh",
+    "playerType": "All-Rounder",
+    "rating": 87,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm orthodox spin",
+    "price": 1800000,
+    "img": "https://i.ibb.co.com/r2sDDQT3/gettyimages-1761430946-612x612.jpg"
+  },
+  {
+    "playerName": "Kagiso Rabada",
+    "playerCountry": "South Africa",
+    "playerType": "Bowler",
+    "rating": 90,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "price": 1900000,
+    "img": "https://i.ibb.co.com/RG2JFp92/0342-911-18771.jpg"
+  },
+  {
+    "playerName": "Rashid Khan",
+    "playerCountry": "Afghanistan",
+    "playerType": "Bowler",
+    "rating": 90,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm leg-spin",
+    "price": 1850000,
+    "img": "https://i.ibb.co.com/p6QrVkwn/gettyimages-2202496467-612x612.jpg"
+  },
+  {
+    "playerName": "Kusal Mendis",
+    "playerCountry": "Sri Lanka",
+    "playerType": "Wicket-Keeper",
+    "rating": 84,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off-break",
+    "price": 1500000,
+    "img": "https://i.ibb.co.com/6cG0xKyD/2159826a86906c6ba6dfd7052f5be7e1.jpg"
+  },
+  {
+    "playerName": "Nicholas Pooran",
+    "playerCountry": "West Indies",
+    "playerType": "Wicket-Keeper",
+    "rating": 85,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "price": 1600000,
+    "img": "https://i.ibb.co.com/TxjYyRxz/gettyimages-1430620380-612x612.jpg"
+  },
+  {
+    "playerName": "Mohammad Nabi",
+    "playerCountry": "Afghanistan",
+    "playerType": "All-Rounder",
+    "rating": 83,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off-break",
+    "price": 1400000,
+    "img": "https://i.ibb.co.com/Fk3vVzpq/gettyimages-1990795688-612x612.jpg"
+  }
+]
