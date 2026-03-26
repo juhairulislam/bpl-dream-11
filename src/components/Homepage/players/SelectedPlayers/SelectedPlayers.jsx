@@ -3,11 +3,9 @@ import { MdDelete } from "react-icons/md";
 import { CiUser } from "react-icons/ci";
 
 const SelectedPlayers = ({selectedPlayers,setSelectedPlayers,setCoin, coin}) => {
-    // console.log(selectedPlayers);
 
     const handleDeletSelectedPlayer = (player) => {
 
-        // console.log(player, 'Player');
 
         const fillteredPlayers = selectedPlayers.filter(selectedPlayers => selectedPlayers.playerName != player.playerName)
 
