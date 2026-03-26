@@ -9,7 +9,6 @@ const SelectedPlayers = ({selectedPlayers,setSelectedPlayers,setCoin, coin}) => 
 
         const fillteredPlayers = selectedPlayers.filter(selectedPlayers => selectedPlayers.playerName != player.playerName)
 
-            // console.log(fillteredPlayers)
             setSelectedPlayers(fillteredPlayers) ;
             setCoin(coin + player.price)
         

@@ -6,12 +6,10 @@ const Players = ({ playersPromise,setCoin,coin }) => {
 
     console.log(playersPromise);
     const players = use(playersPromise);
-    // console.log(data)
 
 
     const [selectedType, setSelectedType] = useState('Available');
     const [selectedPlayers, setSelectedPlayers] = useState([]) ;
-    // console.log(selectedType)
 
     return (
         <div className='container w-[90%] mx-auto my-[60px]'>
