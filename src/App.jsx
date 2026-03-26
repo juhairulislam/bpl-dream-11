@@ -4,6 +4,7 @@ import './App.css'
 import Players from './components/Homepage/players/Players';
 import Navbar from './components/Navbar/Navbar'
 import { DiVim } from 'react-icons/di';
+import { ToastContainer} from 'react-toastify';
 
 
 const fetchPlayer = async() =>{
@@ -27,8 +28,14 @@ function App() {
     }>
     <Players playersPromise={ playersPromise} setCoin={setCoin} coin={coin}></Players>
 
+
+
     </Suspense>
 
+
+  
+      {/* Tostify */}
+    <ToastContainer />
     
 
     </>
