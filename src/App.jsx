@@ -3,6 +3,7 @@ import { Suspense, useState } from 'react';
 import './App.css'
 import Players from './components/Homepage/players/Players';
 import Navbar from './components/Navbar/Navbar'
+import { DiVim } from 'react-icons/di';
 
 
 const fetchPlayer = async() =>{
@@ -20,7 +21,10 @@ function App() {
   return (
     <>
     <Navbar coin={coin}></Navbar>
-    <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
+    <Suspense fallback={ <div className='min-h-screen flex items-center justify-center '>
+      <span className="loading loading-spinner loading-xl"></span>
+    </div>
+    }>
     <Players playersPromise={ playersPromise} setCoin={setCoin} coin={coin}></Players>
 
     </Suspense>

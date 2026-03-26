@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FaUser } from "react-icons/fa6";
 import { FaFlag } from "react-icons/fa";
 
-const Card = ({player,setCoin,coin}) => {
+const Card = ({player,setCoin,coin, setSelectedPlayers, selectedPlayers}) => {
 
     const [selected, setSelected] = useState(false) ;
 
@@ -17,7 +17,8 @@ const Card = ({player,setCoin,coin}) => {
            return
         }
         setSelected(true);
-        setCoin(coin - player.price)
+        setCoin(coin - player.price) ;
+        setSelectedPlayers([...selectedPlayers, player])
     }
     return (
          <div className="card bg-base-100 shadow-md p-5">
