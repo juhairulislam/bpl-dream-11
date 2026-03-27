@@ -12,7 +12,7 @@ const Players = ({ playersPromise,setCoin,coin }) => {
     const [selectedPlayers, setSelectedPlayers] = useState([]) ;
 
     return (
-        <div className='container w-[90%] mx-auto my-[60px]'>
+        <div className='container w-[90%] mx-auto my-[61px]'>
 
             <div className='flex justify-between gap-2'>
                { selectedType==='Available' ? <p className='font-bold text-2xl'>Available Players</p> : <p className='font-bold text-2xl'>Selected Players ({selectedPlayers.length}/{players.length})</p>}
