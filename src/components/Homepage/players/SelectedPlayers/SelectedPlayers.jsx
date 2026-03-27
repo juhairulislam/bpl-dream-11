@@ -16,8 +16,8 @@ const SelectedPlayers = ({selectedPlayers,setSelectedPlayers,setCoin, coin}) => 
     return (
         <div>
            { selectedPlayers.length === 0 ? <div className='p-30 text-center bg-gray-50 rounded-xl mt-2'>
-            <p className='text-2xl text-gray-600 font-semibold '>No player selected yet</p>
-            <p>Go to available tab to select players</p>
+            <p className='text-[15px] md:text-2xl text-gray-600 font-semibold '>No player selected yet</p>
+            <p className='text-[12px] md:text-xl'>Go to available tab to select players</p>
 
            </div> :
             selectedPlayers.map((player, index) => {
