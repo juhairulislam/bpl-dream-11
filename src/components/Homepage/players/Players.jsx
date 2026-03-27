@@ -15,10 +15,10 @@ const Players = ({ playersPromise,setCoin,coin }) => {
         <div className='container w-[90%] mx-auto my-[61px]'>
 
             <div className='flex justify-between gap-2'>
-               { selectedType==='Available' ? <p className='font-bold text-2xl'>Available Players</p> : <p className='font-bold text-2xl'>Selected Players ({selectedPlayers.length}/{players.length})</p>}
+               { selectedType==='Available' ? <p className='font-bold text-xl md:text-2xl'>Available Players</p> : <p className='font-bold text-2xl'>Selected Players ({selectedPlayers.length}/{players.length})</p>}
 
-                <div>
-                    <button onClick={()=> setSelectedType('Available')} className={`btn ${selectedType === "Available" ? "bg-[#E7FE29]" :'btn'} rounded-r-none`}>Available</button>
+                <div className='flex'>
+                    <button onClick={()=> setSelectedType('Available')} className={`btn  ${selectedType === "Available" ? "bg-[#E7FE29]" :'btn'} rounded-r-none`}>Available</button>
                     <button onClick={() => setSelectedType('Selected')} className={` btn ${selectedType === "Selected" ? "bg-[#E7FE29]" :'btn' }  rounded-l-none`}>Selected ({selectedPlayers.length})</button>
                 </div>
 
