@@ -25,7 +25,7 @@ const SelectedPlayers = ({selectedPlayers,setSelectedPlayers,setCoin, coin}) => 
 
                     <div className='flex'>
 
-                        <img className='h-20 w-30 mr-6 rounded' src={player.img} alt={player.playerName} />
+                        <img className='h-20 w-30 mr-6 rounded-md' src={player.img} alt={player.playerName} />
                         <div className=''>
                           
                              <p className='font-bold text-2xl flex justify-center items-center'><CiUser />{player.playerName}</p>
