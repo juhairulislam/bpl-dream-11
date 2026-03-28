@@ -27,6 +27,7 @@ function App() {
     </div>
     }>
     <Players playersPromise={ playersPromise} setCoin={setCoin} coin={coin}></Players>
+    
 
 
 
